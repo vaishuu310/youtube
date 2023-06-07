@@ -1,0 +1,37 @@
+.videos img {
+    width: 360px;
+    height: 202px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.videoData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.videoDetails {
+    width: 100%;
+}
+
+.video {
+    width: 25%;
+    margin: 8px 0px;
+    padding-left: 30px;
+}
+.video h3{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.video p,video a{
+    cursor:pointer;
+    color: #ffffff;
+    margin:0px
+}
+.videoDetails p{
+    margin-top: 5px;
+}
+.videoDetails h3{
+    margin: 0px;
+}
