@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    background-color: rgb(180, 225, 227);
+}
+.sample {
+    text-align: center;
+    padding-top: 250px;
+
+}
+.form{
+    width: 30%;
+    margin-left: 35%;
+    padding-top: 35px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: transparent;
+    /* background-color: rgb(140, 108, 170); */
+}
+.sample inbox,input{
+    width: 50%;
+    height: 2px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(128, 128, 128, 0.995);
+    border-radius: 40px;
+    color:#fff;
+    font-size: 15px;
+    padding: 20px 45px 20px 20px;
+}
+.btn{
+    width: 60px;
+    height: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.995);
+    outline: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Form</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Test.css">
+<!-- <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins",sans-serif;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100px;
+        background: url('images4.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .sample{
+        width:420px;
+        background:transparent;
+        border: 2px solid rgba(255,255,255,.2);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        color:#fff;
+        border-radius: 15px;
+        padding: 30px 40px;
+    }
+    .sample h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    .sample .inbox{
+        width: 100%;
+        height: 50px;
+        background-color: cadetblue;
+        margin: 30px 40px;
+    }
+    .inbox input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(128, 128, 128, 0.995);
+        border-radius: 40px;
+        color:#fff;
+        font-size: 15px;
+        padding: 20px 45px 20px 20px;
+    }
+    .inbox input::placeholder{
+        color:#fff;
+    }
+    .inbox i{
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+    }
+    .sample .forgot{
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        margin: -15px 0 15px;
+    }
+    .sample .forgot label input{
+     accent-color: #fff;
+     margin-right: 3px;
+    }
+    .forgot a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .forgot a:hover{
+        text-decoration: underline;
+    }
+    .sample.btn{
+        width: 100%;
+        height:45px;
+        background: #fff;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        font-size: 15px;
+        color: #333;
+        font-weight: 600;
+    }
+    .sample.register{
+        font-size: 15px;
+        text-align: center;
+        margin: 20px 0 15px;
+    
+    }
+    .register p a{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .register p a:hover{
+        text-decoration: underline;
+    }
+ </style> -->
+
+</head>
+<body>
+    <div class="sample">
+        <form action="" class="form">
+           <h1>Login</h1>
+           <div class="inbox">
+            <input type="text" placeholder="Username" required>
+            <i class='bx bxs-user'></i>
+           </div>
+
+           <div class="input">
+            <input type="password" placeholder="password" required>
+            <i class='bx bxs-lock-alt'></i>
+           </div>
+
+           <div class="forgot">
+            <label for=""><input type="checkbox" required>Remember me</label>
+            <a href="#">Forgot Password</a>
+           </div>
+
+           <button type="button" class="btn">Login</button>
+           <div class="register">
+            <P>Don't have an account?<a href="#">Register</a></P>
+           </div>
+
+        </form>
+    </div>
+</body>
+</html>
